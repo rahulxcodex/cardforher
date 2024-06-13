@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(255, 169, 198);
+}
+
+.gif-container {
+    display: flex;
+    flex-direction: column; /* Align children in columns */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Make the container fill the entire viewport height */
+}
+
+.row {
+    display: flex;
+}
+
+.row img {
+    max-width: 500px; /* Adjust as needed */
+    margin: 10px; /* Add spacing between GIFs */
+}
