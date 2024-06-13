@@ -1,0 +1,80 @@
+body {
+    font-family: "Modak", system-ui;
+    text-align: center;
+    background-color: rgb(255, 169, 198);
+    margin: 30px;
+}
+
+h1 {
+    margin: auto;
+    font-weight: lighter;
+    font-size: 80px;
+
+    color: rgb(250, 24, 130);
+    text-shadow: 5px 5px 10px black;
+}
+
+h3 {
+    margin-top: auto;
+    font-weight: lighter;
+    font-size: 50px;
+
+    color: rgb(250, 24, 130);
+    text-shadow: 5px 5px 10px black;
+}
+
+.gif-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Distribute items evenly with space around */
+}
+
+.gif-container img {
+    max-width: 200px; 
+}
+
+.text-container {
+    text-align: center; /* Center the text horizontally */
+}
+
+.text-container h1, .text-container h3 {
+    margin: 0; 
+}
+
+.box {
+    width: 1500px; 
+    margin: 0 auto;
+    text-align: justify;
+    height: 420px;
+
+    background-color: rgb(241, 111, 183);
+    border: 10px double rgb(250, 24, 130);
+    border-radius: 50px;
+    padding: 15px;
+}
+
+pre {
+    margin: auto;
+    font-family: "Modak", system-ui;
+    font-weight: lighter;
+    font-size: 30px;
+
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+button {
+    font-family: "Modak", system-ui;
+    font-size: 40px;
+    font-weight: lighter;
+
+    background-color: rgb(241, 111, 183); 
+    color: white; 
+    text-shadow: 5px 5px 10px black;
+
+    margin: 0 10px;
+    padding: 10px 20px;
+
+    border: 7px double rgb(250, 24, 130);
+    border-radius: 50px;
+}
